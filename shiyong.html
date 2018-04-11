@@ -12,14 +12,17 @@
 
 <body class="mdui-drawer-body-left mdui-appbar-with-toolbar  mdui-theme-primary-indigo mdui-theme-accent-pink">  
   
-  <div class="mdui-appbar mdui-shadow-0">
       <header class="mdui-appbar mdui-appbar-fixed mdui-text-center mdui-color-pink-400">
+        
+      <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white mdui-float-left" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+          <div class="mdui-appbar mdui-shadow-0">
           <hgroup>
            <h1>长安荣耀</h1>
            <h3>The Honor of Chang'an</h3>
           </hgroup>
+        </div>
     </header>
-  </div>
+ 
   
   <div  class="mdui-drawer mdui-color-pink-400" id="main-drawer">
     <ul class="mdui-list" mdui-collapse="{accordion: true}" style="max-width: 360px;">
@@ -27,15 +30,15 @@
         <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
         <div class="mdui-list-item-content"><a href="index.html">首页</a></div>
       </li> 
-      <li class="mdui-collapse-item mdui-collapse-item-open">
+      <li class="mdui-collapse-item ">
         <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
           <i class="mdui-list-item-icon mdui-icon material-icons">people</i>
           <div class="mdui-list-item-content">团队</div>
           <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
         </div>
         <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-          <li class="mdui-list-item mdui-ripple"><a href="tuandui.html">团队简介</a></li>
-          <li class="mdui-list-item mdui-ripple">成员介绍</li>
+          <a href="tuanduijianjie.html"><li class="mdui-list-item mdui-ripple">团队简介</li></a>
+          <a href="chengyuanjieshao.html"><li class="mdui-list-item mdui-ripple">成员介绍</li></a>
         </ul>
       </li>
       <li class="mdui-collapse-item">
@@ -45,37 +48,33 @@
           <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
         </div>
         <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-          <li class="mdui-list-item mdui-ripple">基础</li>
-          <li class="mdui-list-item mdui-ripple">特色</li>
-          <li class="mdui-list-item mdui-ripple">图片</li>
-          <li class="mdui-list-item mdui-ripple">演示</li>
+          <a href="jichu.html"><li class="mdui-list-item mdui-ripple">基础</li></a>
+          <a href="tese.html"><li class="mdui-list-item mdui-ripple">特色</li></a>
+          <a href="tupian.html"><li class="mdui-list-item mdui-ripple">图片</li></a>
+          <a href="yanshi.html"><li class="mdui-list-item mdui-ripple">演示</li></a>
         </ul>
       </li>
-      <li class="mdui-collapse-item">
+      <li class="mdui-collapse-item mdui-collapse-item-open">
         <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
           <i class="mdui-list-item-icon mdui-icon material-icons">touch_app</i>
           <div class="mdui-list-item-content">指南</div>
           <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
         </div>
         <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
-          <li class="mdui-list-item mdui-ripple">使用</li>
-          <li class="mdui-list-item mdui-ripple">维护</li>
+          <a href="shiyong.html"><li class="mdui-list-item mdui-ripple">使用</li></a>
+          <a href="weihu.html"><li class="mdui-list-item mdui-ripple">维护</li></a>
         </ul>
       </li>
       <li class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">shopping_cart</i>
-        <div class="mdui-list-item-content">购买</div>
+        <div class="mdui-list-item-content"><a href="goumai.html">购买</a></div>
       </li>
     </ul>
   </div>
- 
- 
   <div class="mdui-container-fluid mdui-text-center" id="container" >
-    <P>aaaaaaaaaa</P>
+      <img src="2.jpg" width="100%" height="100%"></img>
   </div>
   <script src="js/mdui.min.js"></script>
-   
-  
   <footer class="mdui-text-center">
       Copyright@2018 The Honor of Chang'an<br>  
       Contact us:133450539@qq.com

@@ -1,0 +1,6 @@
+﻿<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+    版权 © runoob.com</div>
+     
+    </div>
+  
+  
